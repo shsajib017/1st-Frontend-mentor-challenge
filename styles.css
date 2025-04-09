@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "Outfit";
-
+  margin: 0 auto;
   line-height: 1;
   font-weight: 400;
   color: hsl(24, 5%, 18%);
@@ -130,6 +130,6 @@ ol {
     margin-bottom: 0;
   }
   .attribution {
-    padding-top: 2.4rem;
+    display: none;
   }
 }
