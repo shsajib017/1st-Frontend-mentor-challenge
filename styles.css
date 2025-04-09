@@ -17,7 +17,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: hsl(24, 5%, 18%);
-  background-color: hsl(30, 18%, 87%);
+  background-color: hsl(30, 54%, 90%);
   max-width: 144rem;
   overflow-x: hidden;
 }
@@ -107,6 +107,13 @@ ol {
 
 .table-element:last-child {
   border-bottom: none;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 375px) {
